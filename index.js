@@ -4,11 +4,7 @@ module.exports = {
 		es2022: true,
 		node: true,
 	},
-	extends: [
-		"eslint:recommended",
-		"@typhonjs-fvtt/eslint-config-foundry.js",
-		"prettier",
-	],
+	extends: ["eslint:recommended", "@typhonjs-fvtt/eslint-config-foundry.js", "prettier"],
 	globals: {
 		arguments: true,
 	},
@@ -43,6 +39,7 @@ module.exports = {
 				before: true,
 			},
 		],
+		indent: ["error", "tab"],
 		"jsdoc/multiline-blocks": [
 			"warn",
 			{
