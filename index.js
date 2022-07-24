@@ -39,7 +39,13 @@ module.exports = {
 				before: true,
 			},
 		],
-		indent: ["error", "tab"],
+		indent: [
+			"error",
+			"tab",
+			{
+				SwitchCase: 1,
+			},
+		],
 		"jsdoc/multiline-blocks": [
 			"warn",
 			{
