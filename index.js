@@ -7,7 +7,7 @@ module.exports = {
 	extends: [
 		"eslint:recommended",
 		"@typhonjs-fvtt/eslint-config-foundry.js",
-		"plugin:prettier/recommended",
+		"prettier",
 	],
 	globals: {
 		arguments: true,
