@@ -1,0 +1,27 @@
+{
+	"name": "eslint-config-arcanist",
+	"version": "1.0.1",
+	"description": "My personal ESLint config",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/arcanistzed/eslint-config-arcanist.git"
+	},
+	"main": "index.js",
+	"keywords": [
+		"eslint",
+		"eslintconfig"
+	],
+	"author": "arcanist",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/arcanistzed/eslint-config-arcanist/issues"
+	},
+	"homepage": "https://github.com/arcanistzed/eslint-config-arcanist#readme",
+	"dependencies": {
+		"@typhonjs-fvtt/eslint-config-foundry.js": "^0.8.0",
+		"eslint-config-prettier": "^8.5.0"
+	},
+	"peerDependencies": {
+		"eslint": ">=8.20.0"
+	}
+}
