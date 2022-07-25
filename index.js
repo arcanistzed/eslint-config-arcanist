@@ -130,7 +130,14 @@ module.exports = {
 				words: true,
 			},
 		],
-		"spaced-comment": ["error", "always"],
+		"spaced-comment": [
+			"error",
+			"always",
+			{
+				markers: ["/"],
+				balanced: true,
+			},
+		],
 		"wrap-regex": "off",
 	},
 };
