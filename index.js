@@ -39,13 +39,7 @@ module.exports = {
 				before: true,
 			},
 		],
-		indent: [
-			"error",
-			"tab",
-			{
-				SwitchCase: 1,
-			},
-		],
+		indent: "off",
 		"jsdoc/multiline-blocks": [
 			"warn",
 			{
@@ -53,12 +47,7 @@ module.exports = {
 			},
 		],
 		"jsdoc/newline-after-description": "off",
-		"jsdoc/require-jsdoc": [
-			"warn",
-			{
-				publicOnly: true,
-			},
-		],
+		"jsdoc/require-jsdoc": "off",
 		"jsdoc/require-param-description": "off",
 		"jsdoc/tag-lines": "off",
 		"key-spacing": "error",
