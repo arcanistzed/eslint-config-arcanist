@@ -20,6 +20,7 @@
 	"dependencies": {
 		"@typhonjs-fvtt/eslint-config-foundry.js": "^0.8.0",
 		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-jsdoc": "^39.6.4",
 		"eslint-plugin-json": "^3.1.0"
 	},
 	"peerDependencies": {
