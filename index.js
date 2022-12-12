@@ -134,8 +134,15 @@ module.exports = {
 			"error",
 			"always",
 			{
-				markers: ["/"],
-				balanced: true,
+				line: {
+					markers: ["/"],
+					exceptions: ["-", "+"],
+				},
+				block: {
+					markers: ["!"],
+					exceptions: ["*"],
+					balanced: true,
+				},
 			},
 		],
 		"wrap-regex": "off",
